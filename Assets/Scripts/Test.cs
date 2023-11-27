@@ -11,7 +11,12 @@ public class Test : MonoBehaviour
         health = 100 ;
         int damage = 20;
         Debug.Log("Health = " + health);
-        health = health - damage;
+   
+        // Наносим урон
+       health = health - damage;
+       
+      // Пример
+      // health -= damage;
         Debug.Log("Take Damage");
         Debug.Log("Health = "+health); 
     }
