@@ -18,7 +18,11 @@ public class Test : MonoBehaviour
       // Пример
       // health -= damage;
         Debug.Log("Take Damage");
-        Debug.Log("Health = "+health); 
+        Debug.Log("Health = "+health);
+
+        health = health + damage;
+        Debug.Log("Take Damage");
+        Debug.Log("Health = " + health);
     }
 
    
