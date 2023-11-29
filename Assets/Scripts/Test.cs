@@ -7,29 +7,17 @@ public class Test : MonoBehaviour
     
     void Start()
     {
-        int health;
-        health = 100 ;
-        int damage = 20;
-        Debug.Log("Health = " + health);
-   
-        // Ќаносим урон
-       health = health - damage;
+
+        Debug.Log(10 / 2);
+        Debug.Log(5 / 2);//что получить дробное надо обозначить одно из чисел дробным
+
+        Debug.Log(5 / 2f);
+        Debug.Log(5 / 2.0);
+      
        
-      // ѕример
-      // health -= damage;
-        Debug.Log("Take Damage");
-        Debug.Log("Health = "+health);
-         int heal = 20;
-        health = health + heal;
-        Debug.Log("heal hero");
-        Debug.Log("Health = " + health);
+      
 
-        int apple;
-        apple = 5;
 
-        int eatApple;
-        eatApple = 2;
-        apple = apple - eatApple;
     }
 
    
