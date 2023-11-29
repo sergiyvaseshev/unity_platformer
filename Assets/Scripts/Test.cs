@@ -19,10 +19,17 @@ public class Test : MonoBehaviour
       // health -= damage;
         Debug.Log("Take Damage");
         Debug.Log("Health = "+health);
-
-        health = health + damage;
-        Debug.Log("Take Damage");
+         int heal = 20;
+        health = health + heal;
+        Debug.Log("heal hero");
         Debug.Log("Health = " + health);
+
+        int apple;
+        apple = 5;
+
+        int eatApple;
+        eatApple = 2;
+        apple = apple - eatApple;
     }
 
    
