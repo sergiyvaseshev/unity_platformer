@@ -13,6 +13,20 @@ public class Test : MonoBehaviour
 
         Debug.Log(5 / 2f);
         Debug.Log(5 / 2.0);
+        
+        Debug.Log( "2.0"+"5");
+        int apple;
+        apple = 10;
+        int tomato;
+        tomato = 5;
+        Debug.Log(apple+tomato);
+        int Bag=apple+tomato;
+
+        Debug.Log("Apple+Tomato ="+ apple + tomato);
+        Debug.Log("Apple+Tomato ="+ (apple + tomato));
+        Debug.Log("Apple+Tomato ="+ Bag);
+        Debug.Log("Bag ="+ Bag);
+
       
        
       
