@@ -7,41 +7,16 @@ public class Test : MonoBehaviour
     
     void Start()
     {
+        float distance = 108;// km
+            float time = 143;//min
 
-        Debug.Log(10 / 2);
-        Debug.Log(5 / 2);//что получить дробное надо обозначить одно из чисел дробным
+        float speed = distance / (time/60);
 
-        Debug.Log(5 / 2f);
-        Debug.Log(5 / 2.0);
-        
-        Debug.Log( "2.0"+"5");
-        int apple;
-        apple = 10;
-        int tomato;
-        tomato = 5;
-        Debug.Log(apple+tomato);
-        int Bag=apple+tomato;
+        Debug.Log("швидкість " + speed+"КМ/ГОД");
 
-        Debug.Log("Apple+Tomato ="+ apple + tomato);
-        Debug.Log("Apple+Tomato ="+ (apple + tomato));
-        Debug.Log("Apple+Tomato ="+ Bag);
-        Debug.Log("Bag ="+ Bag);
+        decimal speedBIG = (decimal) distance / (decimal)(time / 60);
 
-
-        /*Умножение и деление:
-        Создайте переменные x и y со значениями 8 и 2 соответственно.
-        Выведите в консоль результаты умножения и деления: "x * y = [результат]", "x / y = [результат]".*/
-
-        int x;
-        x = 8;
-        int y;
-        y = 2;
-        Debug.Log("x*y=" +( x * y));
-        Debug.Log("x умножить на  y=" + (x * y));
-        Debug.Log("x/y=" +( x / y));
-        Debug.Log("x поделить  y=" +( x / y));
-
-
+        Debug.Log("швидкість " + speedBIG + "КМ/ГОД");
     }
 
    
