@@ -7,16 +7,18 @@ public class Test : MonoBehaviour
     
     void Start()
     {
-        float distance = 108;// km
-            float time = 143;//min
+       
 
-        float speed = distance / (time/60);
 
-        Debug.Log("швидкість " + speed+"КМ/ГОД");
 
-        decimal speedBIG = (decimal) distance / (decimal)(time / 60);
+        float floatValue = 10.123f;
+        int intValue = 5;
+        floatValue = intValue;
+      //  intValue = (int )floatValue;
 
-        Debug.Log("швидкість " + speedBIG + "КМ/ГОД");
+        Debug.Log(" floatValue" + floatValue);
+        //Debug.Log(" intValue" + intValue);
+
     }
 
    
