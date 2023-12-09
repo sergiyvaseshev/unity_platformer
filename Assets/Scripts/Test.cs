@@ -27,9 +27,19 @@ public class Test : MonoBehaviour
         Debug.Log("Apple+Tomato ="+ Bag);
         Debug.Log("Bag ="+ Bag);
 
-      
-       
-      
+
+        /*Умножение и деление:
+        Создайте переменные x и y со значениями 8 и 2 соответственно.
+        Выведите в консоль результаты умножения и деления: "x * y = [результат]", "x / y = [результат]".*/
+
+        int x;
+        x = 8;
+        int y;
+        y = 2;
+        Debug.Log("x*y=" +( x * y));
+        Debug.Log("x умножить на  y=" + (x * y));
+        Debug.Log("x/y=" +( x / y));
+        Debug.Log("x поделить  y=" +( x / y));
 
 
     }
