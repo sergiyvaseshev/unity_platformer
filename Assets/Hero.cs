@@ -19,6 +19,11 @@ public class Hero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        bool isMove = dir != 0;
+        if (isMove)
+        {
+            var delta=dir*speed;
+            transform.position = new Vector3(transform.position.x + delta,transform.position.y,transform.position.z);
+        }
     }
 }

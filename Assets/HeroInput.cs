@@ -17,15 +17,16 @@ public class HeroInput : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
+            hero.SetDir(-1);
 
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            
+            hero.SetDir(1);
         }
         else
         {
-
+            hero.SetDir(0);
         }
     }
 }
